@@ -1,1 +1,8 @@
-
+name: debian info
+on: push
+jobs:
+  get_system_info:
+    runs-on: fedora-latest
+    steps:
+      - name: get-system-info
+        run:  cat /etc/*-release
