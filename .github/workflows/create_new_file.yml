@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "HELLO!" >> t1.txt 
+        run: |
+          echo "=== OK ==="
+          cd ~/downlods/test1 
+          pwd 
+          echo "HELLO!" >> t1.txt 
