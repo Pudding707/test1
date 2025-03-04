@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  new_file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "HELLO!" >> t1.txt 
