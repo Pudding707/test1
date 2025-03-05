@@ -6,7 +6,6 @@ jobs:
     steps:
       - name: my-step
         run: |
-          echo "=== OK ==="
-          cd ~/downlods/test1 
+          echo "=== OK 2 ==="
           pwd 
           echo "HELLO!" >> t1.txt 
