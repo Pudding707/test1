@@ -1,5 +1,5 @@
 name: hello-world
-on: [push]
+on: [push, label]
 jobs:
   new_file:
     runs-on: ubuntu-latest
